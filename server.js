@@ -18,6 +18,9 @@ app.set("view engine", "handlebars");
 
 const people = [
   {
+    name: "me"
+  },
+  {
     name: "kyle",
     age: 34
   },
