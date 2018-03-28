@@ -9,7 +9,7 @@ app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(bodyParser.json());
+app.use(bodyParser.json(asdfasdf));
 
 var exphbs = require("express-handlebars");
 
@@ -17,6 +17,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 const people = [
+  {},
   {
     name: "kyle",
     age: 34
